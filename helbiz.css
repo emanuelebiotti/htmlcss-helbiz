@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+header {
+  height:550px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-image: url(https://www.helbiz.com/asset/pages/newhome/images/hero-bg.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+.big-text {
+  font-size: 300%;
+  font-weight: bold;
+  color:white;
+}
+.text-center {
+  text-align: center;
+}
+.purchase {
+  display: flex;
+  justify-content: center;
+}
+.purchase img {
+  padding:10px;
+}
+.white {
+  background-color: white;
+  display:flex;
+}
+.trasnport, .app, .find {
+  flex-grow: 1;
+  background-color: #FAFAFA;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:60px 20px;
+  padding:60px;
+  line-height: 40px;
+  font-family: sans-serif;
+}
+.trasnport img {
+  width:35%;
+  height: auto;
+}
+.oldman{
+  height:500px;
+  background-image: url("https://www.helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+  background-size: cover;
+}
+.smart {
+  height:500px;
+  background-image: url("https://www.helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+  background-size: cover;
+  display: flex;
+  color:white;
+  margin:30px 15px;
+}
+.empty {
+  flex-grow: 3;
+}
+.mobility {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-family: sans-serif;
+}
+.app {
+background-color: #3E5265;
+}
+.find {
+  background-image: url("https://www.helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
+  background-size:cover;
+}
+.app , .find {
+  color:white;
+}
+.app a , .find a {
+  color:white;
+  text-decoration: none;
+}
+.app a:hover, .find a:hover {
+  text-decoration: underline;
+}
+.explain {
+  font-size: 140%;
+  font-weight: lighter;
+}
+.collage {
+  height:400px;
+  background-image: url("https://www.helbiz.com/asset/pages/newhome/images/Social-Banner.jpg");
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.hashtag {
+  height: 100px;
+  background-color: white;
+  padding:100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hashtag p .fab {
+  margin: 15px;
+}
+
+footer {
+  background-color: black;
+  height:770px;
+  color:white;
+}
+.mt-100 {
+  margin-top:100px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+.mt-30 {
+  margin-top:30px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.pad-15 {
+  padding:15px 0;
+}
+.container {
+  width:80%;
+  margin:0 auto;
+  height:auto;
+  display:flex;
+  justify-content: space-between;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  padding:10px;
+  padding-inline-start: 0;
+  color:#696969;
+  font-family: "Lato", sans-serif;
+  font-size: 95%;
+}
+.terms {
+  display:flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-top:100px;
+}
+.terms a {
+  color:white;
+  text-decoration: none;
+}
+.last {
+  display:flex;
+  justify-content: center;
+}
+.store {
+  display:flex;
+  width:240px;
+  justify-content:space-between;
+}
+.last img {
+  width:110px;
+  height:35px;
+  border:1px solid white;
+  border-radius:5px;
+}
