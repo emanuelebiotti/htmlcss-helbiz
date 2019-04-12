@@ -32,7 +32,7 @@ header {
   background-color: white;
   display:flex;
 }
-.trasnport, .app, .find {
+.transport, .app, .find {
   flex-grow: 1;
   background-color: #FAFAFA;
   height: 600px;
@@ -44,9 +44,12 @@ header {
   line-height: 40px;
   font-family: sans-serif;
 }
-.trasnport img {
+.transport img {
   width:35%;
   height: auto;
+}
+.transport a {
+  color:#0070C8;
 }
 .oldman{
   height:500px;
