@@ -3,6 +3,32 @@
   margin:0;
   padding:0;
 }
+nav {
+  display:flex;
+  width:100vw;
+  height:50px;
+}
+.logo {
+  width: 30%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+
+}
+.menu {
+  width:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.menu a {
+  font-size: 70%;
+  padding: 20px;
+  text-decoration: none;
+  color:white;
+}
 header {
   height:550px;
   display:flex;
