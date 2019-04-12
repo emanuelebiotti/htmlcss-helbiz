@@ -50,6 +50,7 @@ header {
 }
 .transport a {
   color:#0070C8;
+  text-decoration: none;
 }
 .oldman{
   height:500px;
@@ -150,9 +151,12 @@ footer ul {
 footer ul li {
   padding:10px;
   padding-inline-start: 0;
-  color:#696969;
   font-family: "Lato", sans-serif;
   font-size: 95%;
+}
+footer a {
+  color:#696969;
+  text-decoration: none;
 }
 .terms {
   display:flex;
